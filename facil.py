@@ -1,7 +1,7 @@
 import random
 jogar_novamente = 'sim'
-pergunta = int(random.randint(1,10))
 while jogar_novamente=='sim':
+    pergunta = int(random.randint(1,10))
     print('Informe o Numero Mistérioso (entre 1 e 10)')
     for vezes in range(0,3):
         resposta = int(input('a resposta é -----> '))
